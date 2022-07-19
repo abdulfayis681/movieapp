@@ -1,7 +1,6 @@
 pipeline {
   environment {
-    imagename = "kevalnagda/flaskapp"
-    registryCredential = 'kevalnagda'
+    imagename = "fxyiee/demo1:nginxv1"
     dockerImage = ''
   }
   agent any
